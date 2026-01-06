@@ -1,0 +1,85 @@
+export const workoutsData = [
+  {
+    id: 1,
+    date: '25/03/25',
+    athlete: 'ALLISSON (1)',
+    workoutName: 'PEITORAL E TRÍCEPS',
+    totalSets: 12,
+    totalLoad: '4.200 kg',
+    exercises: [
+      {
+        name: 'Supino Reto',
+        totalExerciseLoad: '2.580 kg',
+        sets: [
+          { label: 'Série 1', info: '12 Reps | 60 kg' },
+          { label: 'Série 2', info: '12 Reps | 60 kg' },
+          { label: 'Série 3', info: '10 Reps | 62 kg' },
+          { label: 'Série 4', info: '8 Reps | 65 kg' },
+        ]
+      },
+      {
+        name: 'Tríceps Corda',
+        totalExerciseLoad: '900 kg',
+        sets: [
+          { label: 'Série 1', info: '15 Reps | 20 kg' },
+          { label: 'Série 2', info: '12 Reps | 25 kg' },
+          { label: 'Série 3', info: '10 Reps | 30 kg' },
+        ]
+      }
+    ]
+  },
+  {
+    id: 2,
+    date: '24/03/25',
+    athlete: 'ALLISSON (1)',
+    workoutName: 'PERNAS (A)',
+    totalSets: 9,
+    totalLoad: '3.500 kg',
+    exercises: [
+      {
+        name: 'Agachamento Livre',
+        totalExerciseLoad: '2.550 kg',
+        sets: [
+          { label: 'Série 1', info: '10 Reps | 80 kg' },
+          { label: 'Série 2', info: '10 Reps | 85 kg' },
+          { label: 'Série 3', info: '8 Reps | 90 kg' },
+        ]
+      },
+      {
+        name: 'Leg Press 45',
+        totalExerciseLoad: '7.440 kg',
+        sets: [
+          { label: 'Série 1', info: '12 Reps | 200 kg' },
+          { label: 'Série 2', info: '12 Reps | 220 kg' },
+          { label: 'Série 3', info: '10 Reps | 240 kg' },
+        ]
+      }
+    ]
+  },
+  {
+    id: 3,
+    date: '23/03/25',
+    athlete: 'JOÃO (3)',
+    workoutName: 'COSTAS E BÍCEPS',
+    totalSets: 16,
+    totalLoad: '5.100 kg',
+    exercises: [
+      {
+        name: 'Levantamento Terra',
+        totalExerciseLoad: '1.050 kg',
+        sets: [
+          { label: 'Série 1', info: '5 Reps | 100 kg' },
+          { label: 'Série 2', info: '5 Reps | 110 kg' },
+        ]
+      },
+      {
+        name: 'Remada Curvada',
+        totalExerciseLoad: '1.200 kg',
+        sets: [
+            { label: 'Série 1', info: '10 Reps | 60 kg' },
+            { label: 'Série 2', info: '10 Reps | 60 kg' },
+        ]
+      }
+    ]
+  }
+];
